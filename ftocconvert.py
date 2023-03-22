@@ -19,5 +19,5 @@ while another_temp:
         if yesno == "n" or yesno == "N":
                 another_temp = False
                 print("Thank you for using this program!")
-                print("To see my other programs, go to: \n\thttp://kshifflett-pvcc.github.io")
+                print("To see my other programs, go to: \n\thttps://kshifflett-pvcc.github.io/")
             
