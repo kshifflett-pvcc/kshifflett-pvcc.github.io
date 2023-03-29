@@ -1,5 +1,6 @@
 # Name: Kayla Shifflett
 # Program Purpose: This program finds the cost for PVCC Tuition and Fees for In-State and Out-of-State students.
+#   PVCC Fee Rates are from: https://www.pvcc.edu/tuition-and-fees
 #   In-State Tuition and Fees:
 #       Tuition: $155.00 per credit
 #       Institutional fee: $1.75 per credit
