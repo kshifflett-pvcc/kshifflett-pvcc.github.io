@@ -5,9 +5,28 @@
 <html lang="en">
     <head>
         <title>Chapter 5</title>
+        <style>
+            body {background-color: #272640; font-family: Arial, Helvetica, sans-serif; margin-top: 0px;}
+            table {width: 70%; margin: auto; background-color: #cddcfc; font-weight: bold;}
+            h1 {color: #312244; font-size: 3em; font-family: Georgia, 'Times New Roman', Times, serif;}
+            h2 {color: #4D194D; font-size: 1.5em;}
+        </style>
     </head>
-<body style="color:#000000; background-color:#1c1f69a8; font-family: calibri;">
-        <h1>Phases of computer program development:</h1>
+
+
+<body>
+        <table>
+            <tr style="background-color: #8d97eb;">
+                <tr><td colspan="4" style="background-color: #8689aa;"><h1>Chapter 5:: Programming Algorithms & Software Testing</h1></td></tr>
+                <tr style="background-color: #8d97eb;">
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="https://wwww.pvcc.edu">PVCC</a></td>
+                    <td><a href="https://wwww.w3schools.com/html">W3 Schools</a></td>
+                    <td style="width:300px;"><a href="contactus.html"> Contact Us</a></td>
+                    </tr>
+            <tr><td colspan="4">
+
+        <h2>Phases of computer program development:</h2>
         <ul>
             <b><li>Phase 1:</b> Understand the problem</li>
             <b><li>Phase 2:</b> Design an algorithm to solve the problem</li>
@@ -18,16 +37,16 @@
             <b><li>Phase 7:</b> Document and evaluate the program</li>
         </ul>
 <br>
-        <h1>Programming structures:</li></h1>
+        <h2>Programming structures:</li></h2>
         <ul>
-        <h2><li>Sequential structure:</h2> 
+        <h3><li>Sequential structure:</h3> 
             <p style="text-indent: 45px;"></p>top-down execution</li></p>
-        <h2><li>Decision structure:</h2> 
+        <h3><li>Decision structure:</h3> 
             <p style="text-indent: 45px;"></p>if/then/else</li></p>
-        <h2><li>Iterative (Looping):</h2></li>
-        <h3>    while loop:</h3> continue looping <u>as long as</u> something is true</p>
-        <h3>    repeat/until loop:</h3> continue looping <u>until</u> something is true</p>
-        <h3>    for loop:</h3> loop a given number of times</p>
+        <h3><li>Iterative (Looping):</h3></li>
+        <h4>    while loop:</h4> continue looping <u>as long as</u> something is true</p>
+        <h4>    repeat/until loop:</h4> continue looping <u>until</u> something is true</p>
+        <h4>    for loop:</h4> loop a given number of times</p>
             </p>
         <h2><li>Recursive structures:</h2></li>
                 <li>Repeat a set of instructions as a subtask of itself</li>
@@ -37,27 +56,27 @@
                     *(degenerative case is also called a "base case")
         </ul>
 <br>            
-        <h1>Two classic programming/database problems</h1>
-        <h2><li>Sorting: Descending order/Ascending order</li></h2>
+        <h2>Two classic programming/database problems</h2>
+        <h3><li>Sorting: Descending order/Ascending order</li></h3>
             <p style="text-indent: 45px;">Sorting numbers</p>
             <p style="text-indent: 45px;">Sorting strings (in accordance with ASCII values)</p>
-        <h2><li>Searching: find specific data that meet a certain criteria</li></h2>
-        <h3><p style="text-indent: 45px;">In database:</h3></p>
+        <h3><li>Searching: find specific data that meet a certain criteria</li></h3>
+        <h4><p style="text-indent: 45px;">In database:</h4></p>
             <p style="text-indent: 45px;"><b>Filters:</b> temporary search</p>
             <p style="text-indent: 45px;"><b>Queries:</b> search criteria are saved so they don't have to be recreated</p>
-        <h2>Two popular search techniques:</h2>
-        <h3><p style="text-indent: 45px;">Sequential search:</p></h3>
+        <h3>Two popular search techniques:</h3>
+        <h4><p style="text-indent: 45px;">Sequential search:</p></h4>
                 <p style="text-indent: 45px;">search from top to bottom or bottom to top, one item at a time</p>
-        <h3><p style="text-indent: 45px;">Binary search:</p></h3>
+        <h4><p style="text-indent: 45px;">Binary search:</p></h4>
                 <p style="text-indent: 45px;">only works if the data is SORTED first</p>
                 <p style="text-indent: 45px;">starts in the middle, then go to half of that, etc.</p>
 <br>
-    <h1>Two classic program goals:</h1>
+    <h2>Two classic program goals:</h2>
             <b><li>Efficiency:</b> Program takes minimal time and/or resources</li><br>
             <b><li>Correctness:</b> Program runs in expected ways and works for all expected conditions</li>
 <br>
-    <h1>Software testing and verification</h1>
-    <h2><li>Kinds of tests:</h2></li>
+    <h2>Software testing and verification</h2>
+    <h3><li>Kinds of tests:</h3></li>
             <b><li>Acceptance testing:</b> Verifying whether the whole system works as intended.</li><br>
             <b><li>Integration testing:</b> Ensuring that software components or functions operate together.</li><br>
             <b><li>Unit testing:</b> Validating that each software unit performs as expected. A unit is the smallest testable component of an application.</li><br>
@@ -67,6 +86,7 @@
             <b><li>Stress testing:</b> Testing how much strain the system can take before it fails. Considered to be a type of non-functional testing.</li><br>
             <b><li>Usability testing:</b> Validating how well a customer can use a system or web application to complete a task.</li>
             </p>
+            <br>
     <h2><li>Software testing is done to detect:</li></h2>
     <p style="text-indent: 45px;"><li>Architectural flaws</li></p>  
     <p style="text-indent: 45px;"><li>Poor design decisions</li></p> 
@@ -81,6 +101,6 @@
             <b><li>Defect or "bug tracking":</b> Monitoring defects is important to both testing and development teams for measuring and improving quality. Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues.</li><br>
             <b><li>Metrics and reporting:</b> Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard. Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements.</li><br>
 <br>
-<b>From:</b> <td><a href="https://www.ibm.com/topics/software-testing">IBM What is software testing? </a></td></li>
+<b>From:</b> <a href="https://www.ibm.com/topics/software-testing">IBM What is software testing? </a>
     </body>
 </html>
